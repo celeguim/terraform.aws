@@ -1,0 +1,3 @@
+
+Create a terraform script, separate the files one script per component. The script will create 2 AWS vpcs in different regions (us-east-1 and us-east-2), within 2 public subnet and 2 private subnets, including gateway. Separate a file to centralize all variables for each VPC. Create a bastion host on public subnet and a NAT gateway to allow communication to private subnets. Create 1 ec2 on public subnet and 1 ec2 on private subnet. Add output for the created objects.
+
